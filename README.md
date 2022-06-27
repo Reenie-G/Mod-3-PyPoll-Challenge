@@ -144,7 +144,7 @@
 		If done properly, the winner will be Diane DeGette with total votes 272,892 which is 73.8% of the total votes. In second place is Charles Casper Stockham with 	total votes 85,231 which is 23.0% and lastly, Raymon Anthony Doane with 11,606 votes which is 3% of the votes. 	  
 			
 						![CandidateVotes](Images/CandidateVotes.png)
-						![ElectionWinner](Images/ElectionWinnder.png)
+						![ElectionWinnder](Images/ElectionWinnder.png)
    
 				 
 ## Election-Audit Summary:
