@@ -49,9 +49,9 @@
 						 `print(election_results, end="")`
     						 `txt_file.write(election_results)`
 			
-			10. The total votes in the congressional election is ![TotalVotes](Images/TotalVotes.png)
-			
-		
+			10. The total votes in the congressional election is 369,711
+						 
+					![TotalVotes](Images/TotalVotes.png)
 
 **County Results**
 
