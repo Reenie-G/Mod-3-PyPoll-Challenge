@@ -96,7 +96,7 @@ Now that we have this information we can move forward to getting the votes for e
 
 	`txt_file.write(largest_county_turnout)`
 		
-	Looking at the county votes, Denver had the largest turnout of votes, 306,055 82.8%. Then Jefferson with 38,855 votes, 10.5% and lastly, Arapahoe with 24,801 which is 6.7% percent.
+	Looking at the county votes, Denver had the largest turnout of votes, 306,055 82.8%. Then Jefferson with 38,855 votes, 10.5% and lastly, Arapahoe with 24,801 	      which is 6.7% percent.
 	
 	![LargestCounty](Images/LargestCounty.png)
 						
@@ -139,14 +139,14 @@ Now that we have this information we can move forward to getting the votes for e
 			
 6. The winning candidate information is placed in a summary and printed:
   
-	winning_candidate_summary = (
-        					f"-------------------------\n"
-        					f"Winner: {winning_candidate}\n"
-        					f"Winning Vote Count: {winning_count:,}\n"
-        					f"Winning Percentage: {winning_percentage:.1f}%\n"
-        					f"-------------------------\n")
+	`winning_candidate_summary = (
+        f"-------------------------\n"
+        f"Winner: {winning_candidate}\n"
+        f"Winning Vote Count: {winning_count:,}\n"
+        f"Winning Percentage: {winning_percentage:.1f}%\n"
+        f"-------------------------\n")`
     
-    					print(winning_candidate_summary)
+    	`print(winning_candidate_summary)`
 
 		If done properly, the winner will be Diane DeGette with total votes 272,892 which is 73.8% of the total votes. In second place is Charles Casper Stockham with 	total votes 85,231 which is 23.0% and lastly, Raymon Anthony Doane with 11,606 votes which is 3% of the votes. 	  
 ![CandidateVotes](Images/CandidateVotes.png)
@@ -155,7 +155,7 @@ Now that we have this information we can move forward to getting the votes for e
 				 
 ## Election-Audit Summary:
 
-		Now that a script has been proven to give county and candidate vote results election, this can be used for future elections. Something to consider is the county vote totals, further analysis could be done for the counties with the lower voter turnouts. What could be causing a low turnout, is it due to population size, is this a lower income area? This is something a future candidate can consider when planning where they will be campaigning. One piece of information  that was missing was the political party affiliation of each candidate. Using the same script we can add a category for different political parties and use a for loop and if conditional to iterate through the data and pull the counts of each different political party. This can be useful for determining a candidate winner and who will be the county with the most voter turnout. 
+		Now that a script has been proven to give county and candidate vote results election, this can be used for future elections. Something to consider is the county vote totals, further analysis could be done for the counties with the lower voter turnouts. What could be causing a low turnout, is it due to population size, is this a lower income area? This is something a future candidate can consider when planning where they will be campaigning. One piece of information that is missing is the political party affiliation of each candidate. Using the same script we can add a category for different political parties and use a for loop and if conditional to iterate through the data and pull the counts of each different political party. This can be useful for determining a candidate winner and who will be the county with the most voter turnout. 
 
 
 
